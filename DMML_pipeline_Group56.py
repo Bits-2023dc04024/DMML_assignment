@@ -565,7 +565,7 @@ def model_training(dataset_name):
 from prefect import flow
 import logging
 
-@flow(name="DMML_pipeline_Group-56",log_prints=True,flow_run_name = "Ajay",retries = 3,retry_delay_seconds = 20)
+@flow(name="DMML_pipeline_Group-56",log_prints=True,flow_run_name = "Ajay")
 
 def run_pipeline():
     print("Starting the ML pipeline...")
