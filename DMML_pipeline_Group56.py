@@ -567,7 +567,7 @@ import logging
 
 @flow(name="DMML_pipeline_Group-56",log_prints=True,flow_run_name = "Ajay")
 
-def run_pipeline(ebug: bool = True):
+def run_pipeline(debug: bool = True):
     print("Starting the ML pipeline...")
     create_paths(CONFIG)
     
